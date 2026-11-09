@@ -20,5 +20,5 @@ Berikut merupakan berbagai koleksi e book yang tersedia di Perpustakaan Digital 
 
 ## Ringkasan UGC
 [Ringkasan_UGC](ebook/Ringkasan_UGC.pdf) – saya (2026)
-
+[PPT_Ringkasan_UGC](ebook/PPT_Ringkasan_UGC.pdf) – saya (2026)
 *Powered by GitHub Pages*
