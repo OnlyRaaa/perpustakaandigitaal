@@ -8,8 +8,10 @@ Berikut ini adalah Koleksi yang dimiliki:
 4. [great-expectations-charles-dicken](great-expectations-charles-dicken.pdf) – saya (2026)
 5. [one-hundred-years-of-solitude-gabriel-garcia-marquez](ebook/one-hundred-years-of-solitude-gabriel-garcia-marquez.pdf) – saya (2026)
 6. [the-count-of-monte-cristo-alexandre-dumas](ebook/the-count-of-monte-cristo-alexandre-dumas.pdf) – saya (2026)
-7. h
-8. h
-9. h
-10. j
+7. [alice-s-adventures-in-wonderland-lewis-carroll](ebook/alice-s-adventures-in-wonderland-lewis-carroll.pdf) – saya (2026)
+8. [little-women-louisa-may-alcott](ebook/little-women-louisa-may-alcott.pdf) – saya (2026) 
+9. [the-old-man-and-the-sea-ernest-hemingwaythe-odyssey-homer](ebook/the-old-man-and-the-sea-ernest-hemingway.pdf) – saya (2026) 
+10. [a-tale-of-two-cities-charles-dickens](ebook/a-tale-of-two-cities-charles-dickens.pdf) – saya (2026)
+11. [romeo-and-juliet-william-shakespeare](ebook/romeo-and-juliet-william-shakespeare.pdf) – saya (2026)
+12. [wuthering-heights-emily-bronte](ebook/wuthering-heights-emily-bronte.pdf) – saya (2026)
 *Powered by GitHub Pages*
