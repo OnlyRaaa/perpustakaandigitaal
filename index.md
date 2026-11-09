@@ -19,6 +19,6 @@ Berikut merupakan berbagai koleksi e book yang tersedia di Perpustakaan Digital 
 12. [wuthering-heights-emily-bronte](ebook/wuthering-heights-emily-bronte.pdf) – saya (2026)
 
 ## Ringkasan UGC
-[Ringkasan_UGC](ebook/Ringkasan_UGC.pdf) – saya (2026)
-[PPT_Ringkasan_UGC](ebook/PPT_Ringkasan_UGC.pdf) – saya (2026)
+1. [Ringkasan_UGC](ebook/Ringkasan_UGC.pdf) – saya (2026)
+2. [PPT_Ringkasan_UGC](ebook/PPT_Ringkasan_UGC.pdf) – saya (2026)
 *Powered by GitHub Pages*
