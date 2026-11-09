@@ -1,6 +1,9 @@
 # Digital Library
-Selamat Datang di Perpustakaan Digital
-Berikut ini adalah Koleksi yang dimiliki:
+Selamat Datang di Perpustakaan Digital!
+
+Jelajahi beragam koleksi informasi dan bahan pustaka yang tersedia untuk mendukung kebutuhan belajar, menambah wawasan, serta memperluas pengetahuan Anda.
+
+Berikut merupakan berbagai koleksi e book yang tersedia di Perpustakaan Digital saya:
 ## Koleksi
 1. [the-odyssey-homer](ebook/the-odyssey-homer.pdf) – saya (2026) 
 2. [jane-eyre-charlotte-bronte](ebook/jane-eyre-charlotte-bronte.pdf) – saya (2026) 
@@ -14,4 +17,7 @@ Berikut ini adalah Koleksi yang dimiliki:
 10. [a-tale-of-two-cities-charles-dickens](ebook/a-tale-of-two-cities-charles-dickens.pdf) – saya (2026)
 11. [romeo-and-juliet-william-shakespeare](ebook/romeo-and-juliet-william-shakespeare.pdf) – saya (2026)
 12. [wuthering-heights-emily-bronte](ebook/wuthering-heights-emily-bronte.pdf) – saya (2026)
+
+## Ringkasan UGC
+
 *Powered by GitHub Pages*
