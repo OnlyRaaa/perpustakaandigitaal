@@ -24,6 +24,7 @@ Berikut merupakan berbagai koleksi e book yang tersedia di Perpustakaan Digital 
 10. [A Tale of Two Cities](ebook/a-tale-of-two-cities-charles-dickens.pdf) – Charles Dickens (1859)
 11. [Romeo and Juliet](ebook/romeo-and-juliet-william-shakespeare.pdf) – William Shakespeare (1597)
 12. [Wuthering Heights](ebook/wuthering-heights-emily-bronte.pdf) – Emily Brontë (1847)
+13. [Psychology of Language](ebook/Psychology-of-Language-Dinesh-Ramooa.pdf) – Dinesh Ramoo (2021)
 
 ## Ringkasan UGC
 1. [Ringkasan UGC](ebook/Ringkasan_UGC.pdf) – Erika Dian Safira (2026)
