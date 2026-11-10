@@ -25,5 +25,5 @@ Berikut merupakan berbagai koleksi e book yang tersedia di Perpustakaan Digital 
 
 ## Ringkasan UGC
 1. [Ringkasan UGC](ebook/Ringkasan_UGC.pdf) – Erika Dian Safira (2026)
-2. [PPT Ringkasan UGC](ebook/PPT_Ringkasan_UGC.pdf) – Erika Dian Safira (2026)
+2. [PPT Ringkasan UGC](ebook/PPT_Ringkasan_UGC_compressed.pdf) – Erika Dian Safira (2026)
 *Powered by GitHub Pages*
