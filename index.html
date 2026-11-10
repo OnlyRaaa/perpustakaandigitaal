@@ -1,1 +1,332 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>My Digital Library | Erika Dian Safira</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
+:root {
+  --pink: #d889a5;
+  --pink-dark: #b96685;
+  --pink-light: #fce4ec;
+  --bg: #fff3f6;
+  --text: #59434d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* HEADER */
+header {
+  background: linear-gradient(135deg, #d889a5, #edb6c9);
+  color: white;
+  text-align: center;
+  padding: 55px 20px;
+  border-radius: 0 0 35px 35px;
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 42px;
+  margin: 12px 0;
+}
+
+header p {
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+/* MAIN CONTENT */
+.container {
+  max-width: 1050px;
+  margin: 35px auto;
+  padding: 0 20px;
+}
+
+/* IDENTITY */
+.identity {
+  background: white;
+  border: 1px solid #f4d5e0;
+  border-radius: 18px;
+  padding: 22px;
+  margin-bottom: 35px;
+  box-shadow: 0 5px 18px #e8b9ca30;
+}
+
+h2 {
+  font-family: 'Playfair Display', serif;
+  color: var(--pink-dark);
+}
+
+.identity p {
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+/* COLLECTION */
+.section-title {
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 13px;
+  color: #987985;
+  margin-bottom: 22px;
+}
+
+/* SEARCH */
+.search-box {
+  width: 100%;
+  padding: 14px 18px;
+  border: 1px solid #edc6d4;
+  border-radius: 25px;
+  outline: none;
+  font-family: inherit;
+  margin-bottom: 22px;
+  background: white;
+}
+
+.search-box:focus {
+  border-color: var(--pink);
+  box-shadow: 0 0 0 3px #d889a520;
+}
+
+/* BOOK CARDS */
+.books {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.book {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  border: 1px solid #f4d5e0;
+  box-shadow: 0 5px 15px #e8b9ca25;
+  transition: 0.25s;
+}
+
+.book:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 9px 20px #d889a540;
+}
+
+.book-icon {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+
+.book h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  color: #754c5e;
+  margin: 0 0 8px;
+}
+
+.book p {
+  font-size: 12px;
+  color: #987985;
+  margin: 5px 0;
+}
+
+/* READ BUTTON */
+.book a {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: var(--pink-light);
+  color: var(--pink-dark);
+  padding: 9px 15px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.book a:hover {
+  background: var(--pink);
+  color: white;
+}
+
+/* EMPTY MESSAGE */
+.empty {
+  text-align: center;
+  color: #987985;
+  padding: 30px;
+  grid-column: 1 / -1;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 15px;
+  margin-top: 50px;
+  background: #f8dce6;
+  color: #96677a;
+  font-size: 12px;
+}
+
+footer span {
+  display: block;
+  margin-top: 7px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <div style="font-size:30px">୨୧ 🌷 ୨୧</div>
+  <h1>My Digital Library</h1>
+  <p>
+    Selamat datang di perpustakaan digital!
+    Jelajahi berbagai koleksi informasi dan bahan pustaka
+    untuk mendukung kebutuhan belajar, menambah wawasan,
+    serta memperluas pengetahuan Anda.
+  </p>
+</header>
+
+<main class="container">
+
+  <!-- IDENTITAS -->
+  <section class="identity">
+    <h2>♡ Identitas</h2>
+    <p><b>Mata Kuliah:</b> Praktikum Aplikasi Teknologi Informasi</p>
+    <p><b>Nama:</b> Erika Dian Safira</p>
+    <p><b>NIM:</b> 13040124140139</p>
+  </section>
+
+  <!-- KOLEKSI -->
+  <section>
+    <h2 class="section-title">♡ Koleksi Digital</h2>
+    <p class="subtitle">
+      A little collection of books to explore ✧
+    </p>
+
+    <input
+      type="search"
+      id="search"
+      class="search-box"
+      placeholder="Cari judul buku atau nama penulis..."
+    >
+
+    <div id="books" class="books">
+      <p class="empty">Sedang memuat koleksi... 🌷</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  Made with ♡ by Erika Dian Safira
+  <span>Powered by GitHub Pages · 2026</span>
+</footer>
+
+<!-- JAVASCRIPT: MEMBACA METADATA -->
+<script>
+
+const metadataURL = "metadata.csv";
+
+let allBooks = [];
+
+function parseCSV(text) {
+  const rows = text.trim().split(/\r?\n/);
+  const headers = rows[0].split(",").map(item => item.trim());
+
+  return rows.slice(1).map(row => {
+    const values = row.split(",").map(item => item.trim());
+    const book = {};
+
+    headers.forEach((header, index) => {
+      book[header] = values[index] || "";
+    });
+
+    return book;
+  });
+}
+
+function escapeHTML(value) {
+  return String(value).replace(/[&<>"']/g, char => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  })[char]);
+}
+
+function renderBooks(data) {
+  const container = document.getElementById("books");
+
+  if (data.length === 0) {
+    container.innerHTML =
+      '<p class="empty">Koleksi tidak ditemukan ♡</p>';
+    return;
+  }
+
+  container.innerHTML = data.map(book => `
+    <article class="book">
+      <div class="book-icon">📖</div>
+      <h3>${escapeHTML(book.Title)}</h3>
+      <p>✍ ${escapeHTML(book.Author)}</p>
+      <p>♡ ${escapeHTML(book.Year)}</p>
+      <p>Format: ${escapeHTML(book.Format)}</p>
+      <a href="ebook/${encodeURIComponent(book.File)}" target="_blank">
+        Baca E-Book ↗
+      </a>
+    </article>
+  `).join("");
+}
+
+/* MENGAMBIL DATA DARI METADATA.CSV */
+fetch(metadataURL)
+  .then(response => {
+    if (!response.ok) {
+      throw new Error("File metadata tidak ditemukan.");
+    }
+
+    return response.text();
+  })
+  .then(csv => {
+    allBooks = parseCSV(csv);
+    renderBooks(allBooks);
+  })
+  .catch(error => {
+    document.getElementById("books").innerHTML =
+      '<p class="empty">Gagal memuat metadata. Periksa nama file dan format CSV.</p>';
+
+    console.error(error);
+  });
+
+/* FITUR PENCARIAN */
+document.getElementById("search").addEventListener("input", function() {
+  const keyword = this.value.toLowerCase();
+
+  const filtered = allBooks.filter(book =>
+    book.Title.toLowerCase().includes(keyword) ||
+    book.Author.toLowerCase().includes(keyword)
+  );
+
+  renderBooks(filtered);
+});
+
+</script>
+
+</body>
+</html>
